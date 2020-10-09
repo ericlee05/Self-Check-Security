@@ -6,7 +6,7 @@
 ============
 Script의 난독화 부재
 ------------
-<img src="https://raw.githubusercontent.com/VINTO1819/Self-Check-Security/master/selfCheckHomeHTML.png" alt="Chrome Dev Tool을 통해 자가진단 페이지를 본 모습" width="500"/>
+<img src="./selfCheckHomeHTML.png" alt="Chrome Dev Tool을 통해 자가진단 페이지를 본 모습" width="500"/>
    
  > Chrome Dev Tool을 통해 자가진단 페이지를 본 모습
 
@@ -34,7 +34,7 @@ SQL Injection 방어의 부재 의심
 ============
 생년월일 및 자가진단 토큰 추출
 ------------
-<img src="https://raw.githubusercontent.com/VINTO1819/Self-Check-Security/master/Success_Tool.PNG" alt="Chrome Dev Tool을 통해 자가진단 페이지를 본 모습" width="500"/>
+<img src="./Success_Tool.PNG" alt="Chrome Dev Tool을 통해 자가진단 페이지를 본 모습" width="500"/>
    
  > 본 개발자의 이름/학교명/태어난 년도를 입력하게 되자,
  > 본 개발자의 생년월일은 물론, 자가진단 조작에 필요한 토큰까지 나오게 되었다.
@@ -53,3 +53,7 @@ SQL Injection 방어의 부재 의심
  * 자가진단 페이지의 Javascript 코드를 .js 파일로 분리하고, 난독화 과정을 거친다.
  * Bruteforce를 방지하기 위해 ```학생의 이름 별``` 분당 요청 횟수를 제한한다.
  * 또한 SQL Injection의 취약점이 의심되는 만큼 ```SQL 저장 프로시저```를 이용하거나 ```입력값 검증```을 추가한다.
+
+🚧 현황
+============
+ * 2020년 9월 경, 새로 개발된 자가진단 서비스가 출시되었음에도 불구하고 현 취약점을 그대로 보유하고 있는 서비스는 유지되고 있음.
