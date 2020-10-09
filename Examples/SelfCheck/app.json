@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "SelfCheck",
+    "slug": "selfchecksecurity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {},
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "대한민국 교육부 COVID-19 학생자가진단 시스템 취약점도구"
+  }
+}
